@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
   if (shExpMatch(url, "*dc.sina.com.cn*")||shExpMatch(url, "*cd.sina.com.cn*")) {
-		return "PROXY 10.218.36.62";
+		return "PROXY 10.218.36.177";
 	}
 	return "DIRECT";
 }
