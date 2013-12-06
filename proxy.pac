@@ -6,12 +6,12 @@ function FindProxyForURL(url, host) {
 	
 	if (shExpMatch(url, "*dc.sina.com.cn*") || shExpMatch(url, "*cd.sina.com.cn*") || shExpMatch(url, "*tmp.sina.com.cn*")) {
 		
-		if ( myIP.indexOf("124.202") > -1 ) {
+		if ( myIP.indexOf("192.168) > -1 ) {
 			realProxy += homeIP;
 		} else {
 			realProxy += comIP;
 		}
-		console.log(myIP,realProxy);
+		alert(myIP+"-"+realProxy);
 		return realProxy;
 	}
 
