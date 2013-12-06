@@ -3,6 +3,7 @@ function FindProxyForURL(url, host) {
 	var comIP = "10.218.36.189";
 	var myIP = myIpAddress();
 	var realProxy = "PROXY ";
+	alert(myIP);
 	if (shExpMatch(url, "*dc.sina.com.cn*") || shExpMatch(url, "*cd.sina.com.cn*") || shExpMatch(url, "*tmp.sina.com.cn*")) {
 		
 		if ( myIP.indexOf("124.202") > -1 ) {
