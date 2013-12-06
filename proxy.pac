@@ -11,7 +11,7 @@ function FindProxyForURL(url, host) {
 		} else {
 			realProxy += comIP;
 		}
-		alert(myIP+"-"+realProxy);
+		// alert(myIP+"-"+realProxy);
 		return realProxy;
 	}
 
