@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
 	var homeIP = "192.168.56.1";
-	var comIP = "10.218.36.142";
+	var comIP = "10.218.36.215";
 	// var myIP = myIpAddress();
 	var realProxy = "PROXY ";
 	
