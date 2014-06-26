@@ -6,7 +6,7 @@ function FindProxyForURL(url, host) {
 	
 	if (shExpMatch(url, "*dc.sina.com.cn*") || shExpMatch(url, "*cd.sina.com.cn*") || shExpMatch(url, "*tmp.sina.com.cn*")) {
 		
-		return "PROXY 10.218.36.252";
+		return "PROXY 10.218.36.76";
 		// if ( myIP.indexOf("192.168") > -1 ) {
 		// 	realProxy += homeIP;
 		// } else {
