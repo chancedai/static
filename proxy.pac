@@ -1,12 +1,12 @@
 function FindProxyForURL(url, host) {
-	var homeIP = "192.168.56.1";
+	var homeIP = "192.168.1.3";
 	var comIP = "10.218.36.215";
 	// var myIP = myIpAddress();
 	var realProxy = "PROXY ";
 	
 	if (shExpMatch(url, "*dc.sina.com.cn*") || shExpMatch(url, "*cd.sina.com.cn*") || shExpMatch(url, "*tmp.sina.com.cn*")) {
 		
-		return "PROXY 10.218.36.76";
+		return homeIP;
 		// if ( myIP.indexOf("192.168") > -1 ) {
 		// 	realProxy += homeIP;
 		// } else {
